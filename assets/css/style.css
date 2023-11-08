@@ -214,7 +214,6 @@ main {
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #photos {
-
         column-count: 2;
         column-gap: 0;
     }
@@ -284,12 +283,6 @@ main {
     #photos {
         column-count: 3;
     }
-
-    /*Gallery */
-
-    #photos {
-        column-count: 3;
-    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -304,14 +297,15 @@ main {
     }
 }
 
-@media screen and (min-width: 1200px) {    
+@media screen and (min-width: 1200px) {
+
     /* Reasons section */
     #benefits {
         display: flex;
         flex-direction: row;
     }
 
-    #benefits > div {
+    #benefits>div {
         flex: 1;
     }
 
@@ -323,11 +317,11 @@ main {
         order: 1;
     }
 
-    #benefits-mental > div {
+    #benefits-mental>div {
         align-self: flex-start;
     }
 
-    #benefits-physical > div {
+    #benefits-physical>div {
         align-self: flex-end;
     }
 }
