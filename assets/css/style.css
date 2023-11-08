@@ -338,6 +338,30 @@ main {
     #photos {
         column-count: 3;
     }
+
+    /* Sign up page*/
+
+    #signup {
+        background-position: center;
+        position: relative;
+    
+    }
+
+    #signup-form{
+        max-width: 400px;
+        left: 10%;
+        top: 150px;
+        position: absolute;
+    }
+
+    .join-button:hover{
+    
+        background-color: #fafafa;
+            color: #454b1b;
+    }
+    .text-input:hover{
+        border-color: #f16c6b;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -350,6 +374,22 @@ main {
     #photos {
         column-count: 4;
     }
+
+    /*Sign up*/
+
+         #signup {
+             background-position: center;
+             position: relative;
+    
+         }
+                  #signup-form {
+                      max-width: 400px;
+                      left: 10%;
+                      top: 50px;
+                      position: absolute;
+                      bottom: 50px;
+                  }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -379,4 +419,5 @@ main {
     #benefits-physical>div {
         align-self: flex-end;
     }
+        
 }
